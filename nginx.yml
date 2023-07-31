@@ -6,4 +6,4 @@
   tasks:
     - apt:
         name: nginx
-      when: ansible_os_family == "Debian"
+      when: ansible_os_family == "redhat"
